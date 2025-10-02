@@ -19,14 +19,13 @@ The program reads two integers (multiplicand and multiplier) from the **Serial M
 
 ## Requirements
 - ESP8266 board (NodeMCU, Wemos D1 Mini, etc.)
-- Arduino IDE (with ESP8266 board support installed)
+- Arduino IDE (1.8.19 or later recommended)
 - USB cable for flashing and Serial Monitor
 
 ---
 
-## How to Use
-1. Open the code in Arduino IDE.  
-2. Select the correct **Board** (e.g., NodeMCU 1.0) and **Port**.  
-3. Upload the sketch to your ESP8266.  
-4. Open **Serial Monitor** at `115200 baud`.  
-5. Enter two integers (separated by space or newline), e.g.:
+## Installing ESP8266 on Arduino IDE
+
+1. **Open Arduino IDE**.  
+2. Go to **File → Preferences**.  
+3. In the **Additional Boards Manager URLs** field, add the following URL:  
